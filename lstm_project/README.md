@@ -51,8 +51,3 @@ lstm_project/
 - Memuat fungsi **`evaluate_model`** dengan menggunakan API dari scikit-learn untuk mengeluarkan hasil berupa *Accuracy*, *Precision*, *Recall*, dan *F1-score* (secara *weighted*).
 - Menghentikan proses gradient tracking lewat baris blok `torch.no_grad()` agar memori tidak bocor dan proses inferensi berjalan lebih cepat dan efisien.
 
-## Cara Penggunaan
-Untuk menjalankan pipeline kode secara penuh, pastikan Anda berada di direktori `kode_program_penugasaan6` dan eksekusi file utama:
-```bash
-python lstm_project/main.py
-```
