@@ -1,7 +1,3 @@
-# Dokumentasi Implementasi Deep Learning (LSTM & Transformer)
-
-Repositori ini berisi implementasi dari arsitektur Deep Learning **Bidirectional LSTM** dan **Transformer Encoder** yang dirancang untuk tugas klasifikasi teks rekam medis klinis, khususnya untuk memprediksi kode ICD-10 (J13, J15.0–J15.8) dari data berbahasa Indonesia. Implementasi model diekstraksi dari **Laporan Deep Learning** dan dimodularisasi ke dalam beberapa berkas terpisah untuk mempermudah pengembangan dan eksperimen. Hal ini sekaligus memenuhi kriteria penilaian untuk menerapkan minimal satu arsitektur RNN/LSTM dan satu arsitektur Transformer pada studi kasus yang sama.
-
 ## Struktur Direktori dan File
 
 Proyek ini telah disusun ke dalam struktur *folder* sebagai berikut:
