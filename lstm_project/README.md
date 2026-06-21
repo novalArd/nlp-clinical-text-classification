@@ -1,7 +1,3 @@
-# Dokumentasi Implementasi Deep Learning (LSTM & Transformer)
-
-Repositori ini berisi implementasi dari arsitektur Deep Learning **Bidirectional LSTM** dan **Transformer Encoder** yang dirancang untuk tugas klasifikasi teks rekam medis klinis, khususnya untuk memprediksi kode ICD-10 (J13, J15.0–J15.8) dari data berbahasa Indonesia. Implementasi model diekstraksi dari **Laporan Deep Learning** dan dimodularisasi ke dalam beberapa berkas terpisah untuk mempermudah pengembangan dan eksperimen. Hal ini sekaligus memenuhi kriteria penilaian untuk menerapkan minimal satu arsitektur RNN/LSTM dan satu arsitektur Transformer pada studi kasus yang sama.
-
 ## Struktur Direktori dan File
 
 Proyek ini telah disusun ke dalam struktur *folder* sebagai berikut:
@@ -55,8 +51,3 @@ lstm_project/
 - Memuat fungsi **`evaluate_model`** dengan menggunakan API dari scikit-learn untuk mengeluarkan hasil berupa *Accuracy*, *Precision*, *Recall*, dan *F1-score* (secara *weighted*).
 - Menghentikan proses gradient tracking lewat baris blok `torch.no_grad()` agar memori tidak bocor dan proses inferensi berjalan lebih cepat dan efisien.
 
-## Cara Penggunaan
-Untuk menjalankan pipeline kode secara penuh, pastikan Anda berada di direktori `kode_program_penugasaan6` dan eksekusi file utama:
-```bash
-python lstm_project/main.py
-```
